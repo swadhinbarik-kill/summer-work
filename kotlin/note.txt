@@ -1,0 +1,4 @@
+print
+println
+var
+val
