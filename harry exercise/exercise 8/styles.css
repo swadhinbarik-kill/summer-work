@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ball {
+    display: flex;
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    background-color: red;
+    border-radius: 50px;
+    top:26vw;
+    left: 0px;
+    animation: transitionY 4s infinite alternate linear, transitionX 4s infinite  alternate linear;
+    
+
+}
+
+
+
+@keyframes transitionY {
+
+    0%{
+          transform:translateY(0);
+    }    
+
+    25% {
+        transform: translateY(-15vw);
+    }
+
+    50% {
+        transform: translateY(0vw);
+    }
+
+    75% {
+        transform: translateY(-45vw);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes transitionX {
+
+    /* 0%{
+          transform:translateX(0);
+    } */
+    100% {
+        transform: translateX(55vw);
+    }
+
+
+}
+
+.line{
+    display: flex;
+    height:13.5vw;
+    width: 100%;
+    background-color: aquamarine;
+    bottom: 15vw;
+}

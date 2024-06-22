@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /* --color:#282A35;
+    --Tcolor:white;
+    --backcolor:#04AA6D; */
+}
+ .bar{
+    background-color:var(--color) ;
+    /* padding: 25px; */
+    margin: 25px;
+    border: 3px solid;
+    border-radius: 10px;
+    height: 50px;    
+    padding: 0;
+    position: relative;
+    padding-top: 40px;
+    top: 100px;
+/
+
+/* .capsules{
+    
+    display:inline;
+    width: 100%;
+    padding: 0;
+    font-size:30px;
+    /* word-spacing: 200px; */
+    top: 100px;  
+    /* margin-left: 40px; */
+    /* margin-top: 500px; */
+   /* margin: 0;
+} */
+/* .link{
+    position: relative;
+    /* top: 0; */
+    /* border: 1px solid black; */
+    /*background-color:var(--color);
+    padding: 39px 124px 16px;
+    display: inline;
+    width: 10%;
+    margin: 0;
+    text-align:center;
+} */
+
+a:hover{
+    color: var(--backcolor);
+    background-color: var(--backcolor);
+}
+a:link{
+    color: var(--Tcolor);
+    }
+    
+a:visited{
+        color: var(--Tcolor);
+        
+}
+
+button{
+    font-size: 40px;
+    display: flow-root;
+    position: relative;
+    /* top: 0; */
+    /* border: 1px solid black; */
+    background-color:var(--color);
+    padding: 3px 14px 16px;
+    display: inline;
+    width: 10%;
+    margin: 0;
+    left: 30px;
+    float: left;
+    width: 14%;
+    margin-top: 0;
+    height: 100px;
+    text-align: center;
+
+}
